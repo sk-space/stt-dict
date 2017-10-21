@@ -1,0 +1,41 @@
+Language model created by QuickLM on Thu Mar 23 10:41:25 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 6 words
+
+\data\
+ngram 1=6
+ngram 2=8
+ngram 3=4
+
+\1-grams:
+-1.3802 ,COMMA -0.2218
+-1.3802 -DASH -0.2218
+-1.3802 .DOT -0.2218
+-1.3802 .FULL-STOP -0.2218
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+
+\2-grams:
+-0.3010 ,COMMA </s> -0.3010
+-0.3010 -DASH </s> -0.3010
+-0.3010 .DOT </s> -0.3010
+-0.3010 .FULL-STOP </s> -0.3010
+-0.9031 <s> ,COMMA 0.0000
+-0.9031 <s> -DASH 0.0000
+-0.9031 <s> .DOT 0.0000
+-0.9031 <s> .FULL-STOP 0.0000
+
+\3-grams:
+-0.3010 <s> ,COMMA </s>
+-0.3010 <s> -DASH </s>
+-0.3010 <s> .DOT </s>
+-0.3010 <s> .FULL-STOP </s>
+
+\end\
